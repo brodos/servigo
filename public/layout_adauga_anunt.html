@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="ro" class="h-full">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rpair</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+</head>
+<body class="font-lato w-full h-full bg-grey-lighter">
+      
+      <div class="h-2 bg-blue-dark"></div>
+
+      <div class="wrapper" id="servigo">
+      	
+			<nav class="header container mx-auto flex items-center justify-between border-b pb-3 pt-10 px-2 md:px-0">
+				
+				<div class="logo">
+					<a href="#" class="inline-block no-underline font-medium text-blue-darkest leading-0 text-3xl">
+						servigo
+					</a>
+				</div>
+
+				<div class="top-nav flex items-center">
+					
+					<div class="hidden md:block links">
+						
+						<ul class="list-reset flex items-center">
+							<li>
+								<a href="/layout.html" class="no-underline text-grey-darker hover:text-blue-dark pr-0 flex items-center">
+									<span><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h9a1 1 0 0 1 .7.3l4 4a1 1 0 0 1 .3.7v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2zm9 2.41V7h2.59L15 4.41zM18 9h-3a2 2 0 0 1-2-2V4H6v16h12V9zm-2 7a1 1 0 0 1-1 1H9a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1zm0-4a1 1 0 0 1-1 1H9a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1zm-5-4a1 1 0 0 1-1 1H9a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1z"></path></svg></span>
+									<span>Anunturi</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="ml-10 no-underline text-grey-darker hover:text-blue-dark pr-0 flex items-center">
+									<span><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm9 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v2z"></path></svg></span>
+									<span>Profilul meu</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="ml-10 no-underline text-grey-darker hover:text-blue-darker pr-0 flex items-center">
+									<span><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM10.59 8.59a1 1 0 1 1-1.42-1.42 4 4 0 1 1 5.66 5.66l-2.12 2.12a1 1 0 1 1-1.42-1.42l2.12-2.12A2 2 0 0 0 10.6 8.6zM12 18a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg></span>
+									<span>Ajutor</span>
+								</a>
+							</li>
+						</ul>
+
+					</div>
+
+					<div class="user flex items-center md:pl-6 md:ml-6 md:border-l">
+						<div class="image">
+							<img src="https://pbs.twimg.com/profile_images/964622868448497665/BroZY29N_400x400.jpg" class="rounded-full w-8 h-8 mr-3">
+						</div>
+						<div class="meta flex flex-col justify-between text-sm font-bold leading-tight text-grey-darkest">
+							<span>Lucian B.</span>
+							<span><a href="#" class="no-underline hover:underline text-blue-dark">Iesire</a></span>
+						</div>
+					</div>
+
+				</div>
+
+			</nav>
+
+
+			<div class="content container mx-auto w-full flex-1 md:py-8 flex flex-col md:flex-row">
+				
+				<main class="flex-1">
+					
+					<div class="card bg-white md:rounded md:shadow-lg">
+
+						<form method="post" enctype="multipart/form-data">
+						
+						<div class="card-header p-6 md:p-8 border-b md:border-grey-lighter bg-grey-lightest flex items-center justify-between">
+							<div class="flex flex-col">
+								<span class="text-grey-dark font-bold text-lg md:text-xl leading-normal text-grey-darkest uppercase text-sm tracking-tight">Adauga un anunt nou</span>
+							</div>
+						</div> <!-- end .card-header -->
+
+						<div class="card-body">
+
+							<div class="content-item w-full">
+
+								<div class="bg-white p-4 md:p-8 flex flex-col justify-between leading-normal">
+								
+									<div class="flex flex-col md:flex-row md:items-center pb-6 md:pb-8 border-b border-grey-light">
+										
+										<div class="w-full md:w-1/4 flex flex-col items-start justify-center">
+											
+											<span class="font-semibold text-grey-darkest">Titlu <span class="text-red opacity-50">*</span></span>
+
+											<span class="text-sm text-grey-darkest opacity-50">Adauga un titlu cat mai sugestiv pentru solicitarea dumneavoastra.</span>
+
+										</div>
+
+										<div class="w-full md:w-3/4 md:pl-8 mt-4 md:mt-0">
+											
+											<input type="text" name="name" class="font-bold w-full focus:outline-none appearance-none p-4 bg-grey-lighter rounded leading-tight text-grey-darkest" value="">
+											
+											
+										</div>
+
+									</div>
+
+									<div class="flex flex-col md:flex-row items-start py-6 md:py-8 border-b">
+										
+										<div class="w-full md:w-1/4 flex flex-col items-start justify-center">
+											
+											<span class="font-semibold text-grey-darkest">Descriere <span class="text-red opacity-50">*</span></span>
+
+											<span class="text-sm text-grey-darkest opacity-50 mt-2">Detaliile fac diferenta. Un anunt clar si concis va atrage cele mai bune oferte.</span>
+											<span class="text-sm text-grey-darkest opacity-50 mt-2">Aveti la dispozitie 10000 de caractere. Lasati mintea libera.</span>
+
+										</div>
+
+										<div class="w-full md:w-3/4 md:pl-8 mt-4 md:mt-0">
+											
+											<textarea name="description" class="w-full focus:outline-none appearance-none p-4 bg-grey-lighter rounded leading-tight text-grey-darkest" rows="20"></textarea>
+
+											
+										</div>
+
+									</div>
+
+									<div class="flex flex-col md:flex-row items-center py-6 md:py-8 border-b">
+										
+										<div class="w-full md:w-1/4 flex flex-col items-start justify-center">
+											
+											<span class="font-semibold text-grey-darkest">Data inceperii</span>
+
+											<span class="text-sm text-grey-darkest opacity-50 mt-2">Optional - puteti specifica data (de) la care se doreste prestarea serviciului.</span>
+
+										</div>
+
+										<div class="w-full md:w-3/4 md:pl-8 mt-4 md:mt-0">
+											
+											<input type="text" name="start_date" class="w-full md:w-auto focus:outline-none appearance-none p-4 bg-grey-lighter rounded leading-tight text-grey-darkest" value="">
+
+										</div>
+
+									</div>
+
+									<div class="flex flex-col md:flex-row items-center py-6 md:pb-2 md:pt-8">
+										
+										<div class="w-full md:w-1/4 flex flex-col items-start justify-center">
+											
+											<span class="font-semibold text-grey-darkest">Fotografii</span>
+
+											<span class="text-sm text-grey-darkest opacity-50 mt-2"><em>"O poza face cat 1000 de cuvinte"</em>. Stim stim, clasicul cliseu, dar este adevarat... de cele mai multe ori.</span>
+
+										</div>
+
+										<div class="w-full md:w-3/4 md:pl-8 mt-4 md:mt-0">
+
+											<div><input type="file" accept="image/*" multiple="multiple" name="images[]" id="fileupload" class="appearance-none focus:outline-none" style="width: 0.1px; height: 0.1px; opacity: 0; overflow: hidden; position: absolute; z-index: -1;"> <label for="fileupload" class="w-full md:w-64 btn btn-blue-secondary py-4 flex items-center justify-center border-dashed cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current md:w-5 md:h-5 w-4 h-4"><path d="M13 5.41V17a1 1 0 0 1-2 0V5.41l-3.3 3.3a1 1 0 0 1-1.4-1.42l5-5a1 1 0 0 1 1.4 0l5 5a1 1 0 1 1-1.4 1.42L13 5.4zM3 17a1 1 0 0 1 2 0v3h14v-3a1 1 0 0 1 2 0v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-3z"></path></svg> <span class="ml-4">Alege fotografii</span></label> <div class="images w-full" style="display: none;"><ul class="list-reset flex items-center justify-start pt-4"></ul> <div class="hidden"></div></div></div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+							</div>
+							
+						</div> <!-- end .card-body -->
+
+						<div class="card-footer bg-grey-lightest p-8 border-t border-grey-lighter flex items-center justify-between">
+							
+							<a href="/layout.html" class="font-bold md:text-sm text-blue-dark hover:text-blue-darker no-underline uppercase tracking-wide leading-tight md:mr-auto text-xs">Renunta</a>
+
+							<a href="#" class="btn btn-grey-secondary" @click.prevent="disableElement" :class="{ disabled: isDisabled }">Salveaza</a>
+
+							<button type="submit" class="btn btn-green md:ml-6" @click="disableElement" :class="{ disabled: isDisabled }">Publica<span class="hidden md:inline"> anuntul</span></button>
+
+						</div>
+
+						</form>
+
+					</div> <!-- and .card -->
+
+				</main>
+
+			</div>
+
+
+			<footer class="footer container mx-auto flex items-center justify-start my-10">
+				
+				<span class="text-sm text-grey-darker">BDX Online SRL &copy; 2018</span>
+
+				<ul class="list-reset text-sm flex flex-wrap leading-normal md:ml-10">
+					<li><a href="#privacy" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Politica de confidentialitate</a></li>
+					<li><a href="#terms" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Termeni si conditii</a></li>
+					<li><a href="#advertising" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Promovare</a></li>
+					<li><a href="#cookies" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Cookies</a></li>
+					<li><a href="#cookies" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">ANPC</a></li>
+				</ul>
+
+			</footer>
+
+      </div>
+   
+</body>
+</html>

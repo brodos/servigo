@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.pre-wrap {
+	white-space: pre-wrap;
+}
+
+.border-dashed {
+	border: 1px dashed #dee2e6 !important
+}
+.border-dotted {
+	border: 1px dotted #dee2e6 !important
+}
+.sticky {
+	position: sticky; 
+	position: -webkit-sticky; 
+	top: 0px;
+}
+.fill-current {
+	fill: currentColor;
+}
+.s {
+	
+}
+

@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ro" class="h-full">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rpair</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+	<link href="/css/style.css" rel="stylesheet">
+</head>
+<body class="font-lato w-full h-full bg-grey-lighter">
+      
+      <div class="h-2 bg-blue-dark"></div>
+
+      <div class="wrapper" id="servigo">
+      	
+			<nav class="header container mx-auto flex items-center justify-between border-b pb-3 pt-10">
+				
+				<div class="logo">
+					<a href="#" class="inline-block no-underline font-medium text-blue-darkest leading-0 text-3xl">
+						servigo
+					</a>
+				</div>
+
+				<div class="top-nav flex items-center">
+					
+					<div class="links">
+						
+						<ul class="list-reset flex items-center">
+							<li>
+								<a href="#" class="no-underline text-blue-dark hover:text-blue-dark pr-0 flex items-center">
+									<span><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 2h9a1 1 0 0 1 .7.3l4 4a1 1 0 0 1 .3.7v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4c0-1.1.9-2 2-2zm9 2.41V7h2.59L15 4.41zM18 9h-3a2 2 0 0 1-2-2V4H6v16h12V9zm-2 7a1 1 0 0 1-1 1H9a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1zm0-4a1 1 0 0 1-1 1H9a1 1 0 0 1 0-2h6a1 1 0 0 1 1 1zm-5-4a1 1 0 0 1-1 1H9a1 1 0 1 1 0-2h1a1 1 0 0 1 1 1z"></path></svg></span>
+									<span>Anunturi</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="ml-10 no-underline text-grey-darker hover:text-blue-dark pr-0 flex items-center">
+									<span><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 1 0-10 5 5 0 0 1 0 10zm0-2a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm9 11a1 1 0 0 1-2 0v-2a3 3 0 0 0-3-3H8a3 3 0 0 0-3 3v2a1 1 0 0 1-2 0v-2a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v2z" class="heroicon-ui"></path></svg></span>
+									<span>Profilul meu</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="ml-10 no-underline text-grey-darker hover:text-blue-darker pr-0 flex items-center">
+									<span><svg class="fill-current w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM10.59 8.59a1 1 0 1 1-1.42-1.42 4 4 0 1 1 5.66 5.66l-2.12 2.12a1 1 0 1 1-1.42-1.42l2.12-2.12A2 2 0 0 0 10.6 8.6zM12 18a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/></svg></span>
+									<span>Ajutor</span>
+								</a>
+							</li>
+						</ul>
+
+					</div>
+
+					<div class="user flex items-center pl-6 ml-6 border-l">
+						<div class="image">
+							<img src="https://pbs.twimg.com/profile_images/964622868448497665/BroZY29N_400x400.jpg" class="rounded-full w-8 h-8 mr-3">
+						</div>
+						<div class="meta flex flex-col justify-between text-sm font-bold leading-right">
+							<span>Lucian B.</span>
+							<span><a href="#" class="no-underline hover:underline text-blue-dark">Iesire</a></span>
+						</div>
+					</div>
+
+				</div>
+
+			</nav>
+
+
+			<div class="content container mx-auto w-full flex-1 py-8 flex">
+				
+				<aside class="w-1/4">
+
+					<div class="action pb-8">
+						<a href="/layout_adauga_anunt.html" class="inline-block btn btn-green">Adauga anunt</a>
+					</div>
+					
+					<div class="pb-4 font-bold uppercase text-blue-darker opacity-50">Anunturi</div>
+
+					<ul class="list-reset">
+						
+						<li><a href="#" class="flex items-center no-underline text-black rounded py-3 pl-6 mr-12 bg-grey-light mb-1">Active</a></li>
+						<li><a href="#" class="flex items-center no-underline text-grey-darker hover:text-black hover:bg-grey-light rounded py-3 pl-6 mr-12 mb-1">Finalizate</a></li>
+						<li><a href="#" class="flex items-center no-underline text-grey-darker hover:text-black hover:bg-grey-light rounded py-3 pl-6 mr-12 mb-1">Inactive</a></li>
+
+					</ul>
+				</aside>
+
+				<main class="flex-1">
+					
+					<div class="card bg-white rounded shadow-lg">
+						
+						<div class="card-header p-8 border-b border-grey-lighter bg-grey-lightest">
+							<span class="font-semibold text-lg text-grey-darkest uppercase">Anunturi active</span>
+						</div> <!-- end .card-header -->
+
+						<div class="card-body">
+						
+							<div class="content-item relative w-full border-b border-grey-lighter relative cursor-pointer bg-white hover:bg-indigo-lightest">
+								<div class="p-6 md:p-8 flex flex-col justify-between leading-normal">
+									<div class="lg:mb-8 flex flex-col lg:flex-row items-start pb-8 lg:pb-0">
+										<div class="flex-1">
+											<div class="font-bold text-xl mb-2">
+												<a href="http://rpair.test/proiect/12" class="text-black hover:text-green no-underline">this is a test</a>
+											</div>
+											<div class="text-grey-darker text-base">
+												this is a test description for a project that I just created to see if the upload is working
+											</div>
+										</div>
+										<div class="flex justify-around items-center leading-none w-full lg:w-auto pt-8 lg:pt-0 z-10">
+											<div class="w-1/3 md:w-auto text-sm text-grey hover:text-green flex items-center justify-center lg:ml-6">
+												<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-6 h-6"><path d="M6.1 21.98a1 1 0 0 1-1.45-1.06l1.03-6.03-4.38-4.26a1 1 0 0 1 .56-1.71l6.05-.88 2.7-5.48a1 1 0 0 1 1.8 0l2.7 5.48 6.06.88a1 1 0 0 1 .55 1.7l-4.38 4.27 1.04 6.03a1 1 0 0 1-1.46 1.06l-5.4-2.85-5.42 2.85zm4.95-4.87a1 1 0 0 1 .93 0l4.08 2.15-.78-4.55a1 1 0 0 1 .29-.88l3.3-3.22-4.56-.67a1 1 0 0 1-.76-.54l-2.04-4.14L9.47 9.4a1 1 0 0 1-.75.54l-4.57.67 3.3 3.22a1 1 0 0 1 .3.88l-.79 4.55 4.09-2.15z"></path></svg></span>
+												<span class="font-bold text-base tracking-tight">3</span>
+											</div>
+											<div class="w-1/3 md:w-auto text-sm text-grey hover:text-green flex items-center justify-center leading-none lg:ml-6">
+												<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-6 h-6"><path d="M17.56 17.66a8 8 0 0 1-11.32 0L1.3 12.7a1 1 0 0 1 0-1.42l4.95-4.95a8 8 0 0 1 11.32 0l4.95 4.95a1 1 0 0 1 0 1.42l-4.95 4.95zm-9.9-1.42a6 6 0 0 0 8.48 0L20.38 12l-4.24-4.24a6 6 0 0 0-8.48 0L3.4 12l4.25 4.24zM11.9 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" class="heroicon-ui"></path></svg></span>
+												<span class="font-bold text-base tracking-tight">166</span>
+											</div>
+											<div title="Oferte primite" class="w-1/3 md:w-auto text-sm text-grey hover:text-green inline-flex items-center justify-center leading-none lg:ml-6">
+												<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-6 h-6"><path d="M18 21H7a4 4 0 0 1-4-4V5c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2h2a2 2 0 0 1 2 2v11a3 3 0 0 1-3 3zm-3-3V5H5v12c0 1.1.9 2 2 2h8.17a3 3 0 0 1-.17-1zm-7-3h4a1 1 0 0 1 0 2H8a1 1 0 0 1 0-2zm0-4h4a1 1 0 0 1 0 2H8a1 1 0 0 1 0-2zm0-4h4a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zm9 11a1 1 0 0 0 2 0V7h-2v11z" class="heroicon-ui"></path></svg></span>
+												<span class="font-bold text-base tracking-tight">1</span>
+											</div>
+										</div>
+									</div>
+									<div class="meta flex flex-col-reverse sm:flex-row justify-start items-center">
+										<div class="text-sm text-grey-dark flex items-center leading-none w-full sm:w-auto">
+											<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm1-8.41l2.54 2.53a1 1 0 0 1-1.42 1.42L11.3 12.7A1 1 0 0 1 11 12V8a1 1 0 0 1 2 0v3.59z"></path></svg></span> <span title="Dec 1, 2018" class="font-semibold tracking-tight">
+												publicat acum o zi
+											</span>
+										</div>
+										<div class="tags sm:ml-auto pb-8 sm:pb-0 z-10">
+											<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-dark mr-2 shadow-inner hover:bg-grey-light">#winter</span>
+											<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-dark mr-2 shadow-inner hover:bg-grey-light">#summer</span>
+											<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-dark mr-2 shadow-inner hover:bg-grey-light">#wonderfull</span>
+										</div>
+									</div>
+								</div>
+								<a href="/layout_anunt_oferte.html" class="absolute pin-t pin-l w-full h-full"></a>
+							</div> <!-- end .project -->
+
+							<div class="content-item relative w-full border-b border-grey-lighter cursor-pointer bg-white hover:bg-indigo-lightest">
+								<div class="p-6 md:p-8 flex flex-col justify-between leading-normal">
+									<div class="lg:mb-8 flex flex-col lg:flex-row items-start pb-8 lg:pb-0">
+										<div class="flex-1">
+											<div class="font-bold text-xl mb-2">
+												<a href="http://rpair.test/proiect/12" class="text-black hover:text-green no-underline">this is a test</a>
+											</div>
+											<div class="text-grey-darker text-base">
+												this is a test description for a project that I just created to see if the upload is working
+											</div>
+										</div>
+										<div class="flex justify-around items-center leading-none w-full lg:w-auto pt-8 lg:pt-0 z-10">
+											<div class="w-1/3 md:w-auto text-sm text-grey hover:text-green flex items-center justify-center lg:ml-6">
+												<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-6 h-6"><path d="M6.1 21.98a1 1 0 0 1-1.45-1.06l1.03-6.03-4.38-4.26a1 1 0 0 1 .56-1.71l6.05-.88 2.7-5.48a1 1 0 0 1 1.8 0l2.7 5.48 6.06.88a1 1 0 0 1 .55 1.7l-4.38 4.27 1.04 6.03a1 1 0 0 1-1.46 1.06l-5.4-2.85-5.42 2.85zm4.95-4.87a1 1 0 0 1 .93 0l4.08 2.15-.78-4.55a1 1 0 0 1 .29-.88l3.3-3.22-4.56-.67a1 1 0 0 1-.76-.54l-2.04-4.14L9.47 9.4a1 1 0 0 1-.75.54l-4.57.67 3.3 3.22a1 1 0 0 1 .3.88l-.79 4.55 4.09-2.15z"></path></svg></span>
+												<span class="font-bold text-base tracking-tight">3</span>
+											</div>
+											<div class="w-1/3 md:w-auto text-sm text-grey hover:text-green flex items-center justify-center leading-none lg:ml-6">
+												<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-6 h-6"><path d="M17.56 17.66a8 8 0 0 1-11.32 0L1.3 12.7a1 1 0 0 1 0-1.42l4.95-4.95a8 8 0 0 1 11.32 0l4.95 4.95a1 1 0 0 1 0 1.42l-4.95 4.95zm-9.9-1.42a6 6 0 0 0 8.48 0L20.38 12l-4.24-4.24a6 6 0 0 0-8.48 0L3.4 12l4.25 4.24zM11.9 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm0-2a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" class="heroicon-ui"></path></svg></span>
+												<span class="font-bold text-base tracking-tight">166</span>
+											</div>
+											<div title="Oferte primite" class="w-1/3 md:w-auto text-sm text-grey hover:text-green inline-flex items-center justify-center leading-none lg:ml-6">
+												<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-6 h-6"><path d="M18 21H7a4 4 0 0 1-4-4V5c0-1.1.9-2 2-2h10a2 2 0 0 1 2 2h2a2 2 0 0 1 2 2v11a3 3 0 0 1-3 3zm-3-3V5H5v12c0 1.1.9 2 2 2h8.17a3 3 0 0 1-.17-1zm-7-3h4a1 1 0 0 1 0 2H8a1 1 0 0 1 0-2zm0-4h4a1 1 0 0 1 0 2H8a1 1 0 0 1 0-2zm0-4h4a1 1 0 0 1 0 2H8a1 1 0 1 1 0-2zm9 11a1 1 0 0 0 2 0V7h-2v11z" class="heroicon-ui"></path></svg></span>
+												<span class="font-bold text-base tracking-tight">1</span>
+											</div>
+										</div>
+									</div>
+									<div class="meta flex flex-col-reverse sm:flex-row justify-start items-center">
+										<div class="text-sm text-grey-dark flex items-center leading-none w-full sm:w-auto">
+											<span class="leading-none mr-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="fill-current w-5 h-5"><path d="M12 22a10 10 0 1 1 0-20 10 10 0 0 1 0 20zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm1-8.41l2.54 2.53a1 1 0 0 1-1.42 1.42L11.3 12.7A1 1 0 0 1 11 12V8a1 1 0 0 1 2 0v3.59z"></path></svg></span> <span title="Dec 1, 2018" class="font-semibold tracking-tight">
+												publicat acum o lună
+											</span>
+										</div>
+										<div class="tags sm:ml-auto pb-8 sm:pb-0 z-10">
+											<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-dark mr-2 shadow-inner hover:bg-grey-light">#winter</span>
+											<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-dark mr-2 shadow-inner hover:bg-grey-light">#summer</span>
+											<span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-dark mr-2 shadow-inner hover:bg-grey-light">#wonderfull</span>
+										</div>
+									</div>
+								</div>
+								<a href="/layout_anunt_oferte.html" class="absolute pin-t pin-l w-full h-full"></a>
+							</div> <!-- end .project -->
+
+						</div> <!-- end .card-body -->
+
+						<div class="card-footer bg-grey-lightest p-8 border-t border-grey-lighter flex items-center justify-between">
+							
+							<a href="#" class="btn btn-grey-secondary disabled">Inapoi</a>
+							<a href="#" class="btn btn-grey-secondary">Inainte</a>
+
+						</div>
+
+					</div> <!-- and .card -->
+
+				</main>
+	
+
+			</div>
+
+
+			<footer class="footer container mx-auto flex items-center justify-start mt-10">
+				
+				<span class="text-sm text-grey-darker">BDX Online SRL &copy; 2018</span>
+
+				<ul class="list-reset text-sm flex flex-wrap leading-normal md:ml-10">
+					<li><a href="#privacy" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Politica de confidentialitate</a></li>
+					<li><a href="#terms" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Termeni si conditii</a></li>
+					<li><a href="#advertising" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Promovare</a></li>
+					<li><a href="#cookies" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">Cookies</a></li>
+					<li><a href="#cookies" class="mr-4 text-blue-dark hover:text-blue-darker opacity-75">ANPC</a></li>
+				</ul>
+
+			</footer>
+
+      </div>
+   
+</body>
+</html>
